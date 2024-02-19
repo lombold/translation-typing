@@ -14,6 +14,7 @@ import {TranslationKey} from "./translation-keys.type";
     <h1>Welcome to {{title}}!</h1>
 
     <p>{{ 'USED_KEY' | typedTranslate }}</p>
+    <p>{{ 'OBJECT_KEY.USED_KEY' | typedTranslate }}</p>
     <ul>
       <li *ngFor="let animal of animals">{{ getAnimalKey(animal) | typedTranslate }}</li>
     </ul>
@@ -29,6 +30,6 @@ export class AppComponent {
   animals: Animals[] = [Animals.CAT, Animals.MOUSE];
 
   getAnimalKey(animal: Animals): TranslationKey {
-    return <const>`ENUM_KEY_${animal}`;
+    return `ENUM_KEY_${animal}`;
   }
 }

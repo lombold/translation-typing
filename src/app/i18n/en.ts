@@ -1,5 +1,4 @@
-{
-  "$schema": "translation-schema-simple.json",
+export default <const>{
   "USED_KEY": "used key",
   "UNUSED_KEY": "unused key",
   "ENUM_KEY_dog": "dog",

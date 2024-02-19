@@ -1,5 +1,4 @@
-{
-  "$schema": "translations-schema.json",
+export default <const>{
   "USED_KEY": "Das ist ein gebrauchter Schlüssel",
   "UNUSED_KEY": "Das ist ein unbenutzter Schlüssel",
   "ENUM_KEY_dog": "Hund",
@@ -9,4 +8,4 @@
     "USED_KEY": "Das ist ein gebrauchter Schlüssel",
     "UNUSED_KEY": "Das ist ein unbenutzter Schlüssel"
   }
-}
+};
