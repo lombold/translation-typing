@@ -1,4 +1,5 @@
 {
+  "$schema": "translations-schema.json",
   "USED_KEY": "Das ist ein gebrauchter Schlüssel",
   "UNUSED_KEY": "Das ist ein unbenutzter Schlüssel",
   "ENUM_KEY_dog": "Hund",
