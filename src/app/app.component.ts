@@ -1,9 +1,10 @@
 import { Component } from '@angular/core';
 import { RouterOutlet } from '@angular/router';
-import {TranslateModule, TranslatePipe} from "@ngx-translate/core";
+import {TranslateModule} from "@ngx-translate/core";
 import {Animals} from "./animals.enum";
 import {NgForOf} from "@angular/common";
-import {TranslationKey, TypedTranslatePipe} from "./typed-translate.pipe";
+import {TypedTranslatePipe} from "./typed-translate.pipe";
+import {TranslationKey} from "./translation-keys.type";
 
 @Component({
   selector: 'app-root',

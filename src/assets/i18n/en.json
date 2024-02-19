@@ -3,5 +3,9 @@
   "UNUSED_KEY": "unused key",
   "ENUM_KEY_dog": "dog",
   "ENUM_KEY_cat": "cat",
-  "ENUM_KEY_mouse": "mouse"
+  "ENUM_KEY_mouse": "mouse",
+  "OBJECT_KEY": {
+    "USED_KEY": "Das ist ein gebrauchter Schlüssel",
+    "UNUSED_KEY": "Das ist ein unbenutzter Schlüssel"
+  }
 }
