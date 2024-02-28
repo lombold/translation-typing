@@ -15,6 +15,7 @@ import {TranslationKey} from "./translation-keys.type";
 
     <p>{{ 'USED_KEY' | typedTranslate }}</p>
     <p>{{ 'OBJECT_KEY.USED_KEY' | typedTranslate }}</p>
+    <p>{{ 'USED_KEY' | typedTranslate }}</p>
     <ul>
       <li *ngFor="let animal of animals">{{ getAnimalKey(animal) | typedTranslate }}</li>
     </ul>
@@ -26,7 +27,6 @@ import {TranslationKey} from "./translation-keys.type";
 })
 export class AppComponent {
   title = 'translation-key-finder';
-  // animals: Animals[] = [Animals.CAT, Animals.DOG, Animals.MOUSE];
   animals: Animals[] = [Animals.CAT, Animals.MOUSE];
 
   getAnimalKey(animal: Animals): TranslationKey {
